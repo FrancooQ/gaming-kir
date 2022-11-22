@@ -10,12 +10,12 @@
 
 <p>Esta pagina incluye:</p>
 
-<p>Objetos y Arrays. Métodos de Arrays.
-Funciones y condicionales.
-Generación del DOM de forma dinámica. Eventos.
-Sintaxis avanzada.
-Al menos una librería de uso relevante para el proyecto.
-Manejo de promesas con fetch. 
-Carga de datos desde un JSON local o desde una API externa.
-</p>
+  <p>Objetos y Arrays. Métodos de Arrays.</p>
+  <p>Funciones y condicionales.</p>
+  <p>Generación del DOM de forma dinámica. Eventos.</p>
+  <p>Sintaxis avanzada.</p>
+  <p>Al menos una librería de uso relevante para el proyecto.</p>
+  <p>Manejo de promesas con fetch. </p>
+  <p>Carga de datos desde un JSON local o desde una API externa.</p>
+
 </ul>
