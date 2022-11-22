@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/css/styles.css"> 
+    <title>Gaming Kir - Inicio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    </ul>
+                    <!-- ICONO CARRITO -->
+                    <button id="cesta-carrito"><i class="bi-cart icono_nav"><span id="contador-carrito"></span></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Bienvenido a Gaming Kir</h1>
+        <h2>Tienda de hardware, software y perifericos.</h2>
+        <span>Los mejores precios de Argentina.</span>
+
+        <h3 id="productos-muestra">Nuestros Productos</h3>
+        <section id="productos">
+            <div id="div-formulario">
+                <h4 id="form-titulo">BUSCAR POR CATEGORIA</h4>
+                <form id="formulario">
+                    <label for="items" id="form-titulo">Articulos</label>
+                    <select name="articulos" id="items">
+                        <option value="">Categorias</option>
+                        <option value="auriculares">Auriculares</option>
+                        <option value="gpu">Placas de video</option>
+                        <option value="procesadores">Procesadores</option>
+                    </select>
+                    <input id="filtrar" type="submit" value="FILTRAR">
+                </form>
+                <button id="reestablecer">REESTABLECER</button>
+                <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="ordenar">
+                    Ordenar
+                </button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button" id="mayor">Mayor a Menor</button></li>
+                    <li><button class="dropdown-item" type="button" id="menor">Menor a Mayor</button></li>
+                </ul>
+                </div>
+            </div>
+            <!-- CATALOGO -->
+            <div id="producto-contenedor">
+                
+            </div>
+        </section>
+        <!-- CONTACTO -->
+        <section id="form">
+            <h2 id="form_texto">¿TIENES ALGUN PROBLEMA CON LA COMPRA? CONTACTANOS</h2>
+            <form id="form_contact">
+                <label>Nombre</label>
+                <input type="text" id="user_name" class="form_imput" name="user_name" placeholder="Nombre" required/>
+                <label>Correo</label>
+                <input type="email" id="user_email" class="form_imput" name="user_email" placeholder="correo@example.com" required/>
+                <label>Mensaje</label>
+                <textarea name="message" id="message" class="form_text" placeholder="Mensaje" required></textarea>
+                <input type="submit" value="Enviar" class="form_imput" id="EnviarForm"/>
+            </form>
+        </section>
+    </main>
+    
+    <!-- CARRITO -->
+    <div id="modal-container" class="modal-container">
+    </div>
+
+    <footer class="footer">
+        <!-- Section: Links  -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Contenedor -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>Acerca de KIR
+                        </h6>
+                        <p>Kir es una empresa ficticia creada para el curso de JavaScrip de CODER HOUSE.</p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Menu</h6>
+                        <p><a href="#" class="text-reset">Inicio</a></p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                        <p><i class="fas fa-home me-3"></i>Boedo,Humberto Primo 3351</p>
+                        <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        gamingkir@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>+11 5860 3780</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2022 Copyright:
+        <a class="text-reset fw-bold" href="https://github.com/FrancooQ">Franco Quiroga</a>
+        </div>
+    </footer>   
+
+    <!-- JAVASCRIP BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- JAVA SCRIPT -->
+    <script src="./src/storage.js"></script>
+    <script src="./src/modal.js"></script>
+    <script src="./src/accionesCarrito.js"></script>
+    <script src="./app.js"></script>
+    <script src="./index.js"></script>
+    <!-- Libreria sweetalert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

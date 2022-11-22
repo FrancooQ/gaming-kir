@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "nombre": "Ryzen 3 3220g",
+      "tipo": "procesadores",
+      "precio": 20000,
+      "img": "../public/images/AMDRyzen33200g4.0ghzTurboAM4.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Ryzen 5 1600AFZEN",
+      "tipo": "procesadores",
+      "precio": 22000,
+      "img": "../public/images/AMDRyzen51600AFZEN+12NMAM4.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Auricualres Razer Nari Wireless",
+      "tipo": "auriculares",
+      "precio": 15000,
+      "img": "../public/images/auricularesnariwirelessrazer.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Auriculares HP HyperX Cloud II",
+      "tipo": "auriculares",
+      "precio": 12000,
+      "img": "../public/images/AuricularesHPHyperXCloudIIRedPC-PS4-XBOX.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "nombre": "Auriculares HyperX Cloud Flight",
+      "tipo": "auriculares",
+      "precio": 12500,
+      "img": "../public/images/AuricularesHyperXCloudFlightBlackWireless.jpg",
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "nombre": "MSI GTX 1650 SUPER",
+      "tipo": "gpu",
+      "precio": 65000,
+      "img": "../public/images/placadevideomsigtx1650super.jpg",
+      "cantidad": 1
+    }
+]
