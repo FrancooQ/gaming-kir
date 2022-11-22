@@ -1,5 +1,5 @@
 <h1>Gaming Kir</h1>
-<p>Sitio ficticio de una tienda de componentes de computadoras-</p>
+<p>Sitio ficticio de una tienda de componentes de computadoras.</p>
 
 <h2>Tecnologias usadas</h2>
 <ul>
@@ -8,7 +8,7 @@
 <li>Boostrap</li>
 <li>JavaSript</li>
 
-<p>Esta pagina incluye:</p>
+  <b><p>Esta pagina incluye:</p></b>
 
   <p>Objetos y Arrays. Métodos de Arrays.</p>
   <p>Funciones y condicionales.</p>
